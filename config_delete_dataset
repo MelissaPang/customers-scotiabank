@@ -1,8 +1,8 @@
 tamr_instance:
-    host: 10.20.0.50
+    host: <ip> #10.20.0.50
     protocol: "http"
     port: "9100"
-    username: "mpang"
-    password: "playtopgolf"
+    username: <user name>  #"user123"
+    password: <password>  #"123456"
 
-truncate_datasets_names: ['sayari_usa_ma_name1_sub0', 'sayari_usa_ma_name1_sub2', 'tamr_dataset_3']
+truncate_datasets_names: <a list of datasets>  #['tamr_dataset_1', 'tamr_dataset_2', 'tamr_dataset_3']
