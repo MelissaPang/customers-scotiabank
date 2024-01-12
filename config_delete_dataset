@@ -1,0 +1,9 @@
+tamr_instance:
+    host: <ip>    #e.g.: 10.20.0.30
+    protocol: "http"
+    port: "9100"
+    username: <user name>   # e.g.: "user123"
+    password: <password>    # e.g.: "password123456"
+
+truncate_datasets_names: <list of datasets to truncate>
+# e.g.: ['tamr_dataset_1', 'tamr_dataset_2', 'tamr_dataset_3']
