@@ -20,7 +20,7 @@ def truncate_a_dataset_by_name(*, client: Client, dataset_name: str):
 
 
 if '__main__':
-    config_address = "/Users/melissapanggwugmail.com/Desktop/bigquery/config_delete_dataset"  # Please change the location of the config file here
+    config_address = "/Desktop/config_delete_dataset"  # Please change the location of the config file here
     CONFIG = tbox.utils.config.from_yaml(config_address)
     tamr = tbox.utils.client.create(**CONFIG["tamr_instance"])
     for dataset_name in CONFIG["truncate_datasets_names"]:
